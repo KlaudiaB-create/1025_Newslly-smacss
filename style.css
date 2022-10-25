@@ -1,8 +1,125 @@
 @charset "uft-8";
 
-/* base */
+/* Base */
 body {
     color: #888888;
     font-size: 14px;
-    font-family: Helvetica, sans-serif, Arial
+    font-family: Helvetica, sans-serif, Arial;
+    line-height: 1.7;
+}
+
+h2 {
+    color: #202124;
+    font-size: 24px;
+    line-height: 1;
+    border-left: 10px solid #FA6980;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+small {
+    color: #BBBBBB;
+    font-size: 12px;
+}
+
+/* Layout */
+.l-inner {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.l-header {
+    padding: 30px 0 0;
+}
+
+.l-footer {
+    background-color: #202124;
+    padding: 100px 0 40px;
+}
+
+.l-mb6 {
+    margin-bottom: 60px;
+}
+
+.l-py6 {
+    padding: 60px 0;
+}
+
+/* backgroundColor */
+.l-bg-ash {
+    background-color: #F6F6F6;
+}
+
+.l-bg-pink {
+    background-color: #FA6980;
+}
+
+/* image */
+.l-image-center {
+    margin: 0 auto;
+}
+
+/* flex */
+.l-flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.l-col2 {
+    width: 47.5%;
+}
+
+/* Module */
+
+/* unit */
+.unit-catch {
+    color: #FA6980;
+    font-size: 12px;
+    line-height: 1;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.unit-title {
+    color: #202124;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.unit-update {
+    color: #BBBBBB;
+    font-size: 12px;
+    padding-left: 26px;
+    background: url(./images/icon_time.png) no-repeat left/16px 16px;
+    margin-top: 20px
+}
+
+/* card */
+.card-txt {
+    background-color: #fff;
+    padding: 35px;
+}
+
+.card-title {
+    color: #202124;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+/* btn */
+.btn {
+    display: block;
+    width: 160px;
+    color: #fff;
+    font-size: 12px;
+    line-height: 1;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 0;
+    margin-top: 25px;
+    margin-left: auto;
 }
