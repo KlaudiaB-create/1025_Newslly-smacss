@@ -55,6 +55,10 @@ small {
     background-color: #FA6980;
 }
 
+.l-bg-black {
+    background-color: #202124;
+}
+
 /* image */
 .l-image-center {
     margin: 0 auto;
@@ -69,6 +73,16 @@ small {
 
 .l-col2 {
     width: 47.5%;
+}
+
+.l-col3 {
+    width: 30%;
+}
+
+/* border */
+.l-border-bottom {
+    border-bottom: 1px solid #DDDDDD;
+    padding-bottom: 10px;
 }
 
 /* Module */
@@ -88,7 +102,8 @@ small {
     margin-bottom: 15px;
 }
 
-.unit-update {
+.unit-update,
+.card-update {
     color: #BBBBBB;
     font-size: 12px;
     padding-left: 26px;
