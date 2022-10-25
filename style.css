@@ -1,0 +1,8 @@
+@charset "uft-8";
+
+/* base */
+body {
+    color: #888888;
+    font-size: 14px;
+    font-family: Helvetica, sans-serif, Arial
+}
